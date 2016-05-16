@@ -1,0 +1,254 @@
+/*********************css reset*********************/
+html,body, div, span, form,iframe,
+h1, h2, h3, h4, h5, p, em, img, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 3), 
+only screen and (min-device-pixel-ratio: 3) {
+  html{font-size: 105%;}
+}*/
+html {font-size: 62.5%;}
+body {
+  font-family: Helvetica, 'STXihei', 'STHeiti Light', '»ªÎÄÏ¸ºÚ', sans-serif;
+  line-height: 1;
+  background-color: #F1F1F1;
+}
+html, body{height: 100%;width: 100%;}
+
+input {
+  margin: 0;
+  padding: 0;
+  /*-webkit-appearance: none;*/
+  border-style: none;
+  /*outline:none;*/
+}
+
+input {
+  outline-style: none;
+}
+input[type="button"] {
+  -webkit-appearance: none;
+}
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+input[type="text"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+select{
+  /*background-color: transparent;*/
+  -webkit-appearance: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+    color: #555555;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  /*color: #555555;*/
+}
+a {
+  display: block;
+}
+.clear {
+  clear: both;
+}
+
+/*Çå³ý¸¡¶¯*/
+
+.clearfix:after {
+  content: "\0020";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.shadow {
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#d9dbdd', Direction=135, Strength=2);
+  /*for ie6,7,8*/
+  -moz-box-shadow: 0px 1px 3px #d9dbdd;
+  /*firefox*/
+  -webkit-box-shadow: 1px 0px 3px #d9dbdd;
+  /*webkit*/
+  box-shadow: 0px 1px 3px #d9dbdd;
+  /*opera»òie9*/
+}
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block;
+}
+
+.text-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/** flexbox parent and children style */
+.display-flexbox {
+    display: -webkit-box;   
+    display: -webkit-flex;  
+    display: flex;          
+}
+.flexbox-children {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.flexwrap{
+  flex-wrap: wrap;
+}
+
+body{
+  background: #000;}
+  img.head{
+    display: block;
+    max-width: 100%;}
+  footer{
+    color: #888888;
+    font-size: 10px;
+    text-align: center;
+    padding: 15px 0;}
+  .main{
+    line-height: 18px;
+    color: #ffdca2;
+    padding: 0 20px;}
+    .status{
+      padding-top: 30px;
+      text-align: center;}
+      .status_3{
+        font-size: 14px;}
+        .status_3 img{
+          width: 140px;
+          margin: 20px auto 10px;}
+      .status_2{
+        height: 153px;
+        color: #b40d0d;
+        font-size: 14px;}
+        .status_2 strong{
+          line-height: 60px;
+          display: block;
+          font-size: 30px;
+          padding-bottom: 25px;}
+      .status_1{
+        height: 153px;
+        color: #e5c591;
+        font-size: 14px;}
+        .status_1 span{
+          line-height: 58px;
+          display: block;
+          font-size: 40px;
+          color: #b40d0d;
+          padding: 35px 0;}
+      .status_0{
+        height: 153px;
+        color: #e5c591;
+        font-size: 14px;}
+        .status_0 a{}
+          .status_0 a img{
+            width: 239px;
+          }
+    h1{
+      margin: 0 -20px;
+      font-size: 18px;
+      color: #ffdca2;
+      text-align: center;
+      padding: 15px 0;
+      background: url(../img/h1.png) no-repeat center center;
+      background-size: 356px 15px;}
+    .main p{
+      text-indent: 20px;
+      padding-bottom: 20px;}
+    .main > img{
+      width: 45%;
+      display: inline-block;
+      border: 3px solid #303030;}
+      .main > img + img{
+        margin-left: 4%;}
+    a.download{
+      line-height: 51px;
+      display: block;
+      color: #232323;
+      font-size: 26px;
+      margin: 20px 18%; 
+      border-radius: 3px;
+      background: #ffcb2d;
+      text-align: center;
+      border: 1px solid #aa871e;
+      border-bottom-width: 5px;}
+      a.download span{
+        padding-left: 40px;
+        display: inline-block;
+        background: url(../img/download_icon.png) no-repeat 0 center;
+        background-size: 33px 33px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
