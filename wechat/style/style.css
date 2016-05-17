@@ -217,7 +217,44 @@ body{
         background: url(../img/download_icon.png) no-repeat 0 center;
         background-size: 33px 33px;}
 
-
+/************
+@ for PC
+************/
+.pc img.head{
+  width: 100%;
+  /*max-width: 1000px;*/
+  margin: 0 auto;}
+.pc .main{
+  max-width: 720px;
+  margin: 0 auto;}
+  .pc .status_3{
+    font-size: 26px;
+    text-indent: 20px;}
+    .pc .status_3 img{
+      width: auto;}
+    .pc .main > img + img{
+      margin-left: calc(10% - 20px);
+    }
+  .pc h1{
+    font-size: 40px;
+    margin: 30px auto;
+    background: url(../img/h1_pc.png) no-repeat center center;}
+  .pc .main{
+    line-height: 42px;
+    font-size: 24px;}
+    .download_wrap{text-align: center;}
+      .pc a.download{
+        width: 30%;
+        font-size: 34px;
+        border-radius: 5px;
+        line-height: 73px;
+        display: inline-block;
+        margin: 20px 1%;}
+        .pc a.download:hover{background: #b28706;}
+        .pc a.download span{
+          background: url(../img/download_icons_pc.png) no-repeat 0 center;}
+        .pc a.download.ios span{background-position: -269px center;}
+        .pc a.download.android span{background-position: -531px center;}
 
 
 
