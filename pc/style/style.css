@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS reset */
+*{font-family: "优黑","微软雅黑", "Microsoft Yahei", "Pinghei", "宋体", Arial, Helvetica, sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{font:12px "微软雅黑", "宋体",Arial, Helvetica, sans-serif;}
+a{color: #313131;text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden{display: none;}
+.show{display: block;}
+.fl{float: left;}
+.fr{float: right;}
+/* style */
+body{background: #000;}
+header{height: 88px;background: #131313;}
+	.header_core{width: 1000px;margin: 0 auto;}
+		.logo{
+			width: 110px;
+			height: 88px;
+			display: block;
+			float: left;
+			text-indent: -99999px;
+			background: url(../img/logo.png) no-repeat center center;}
+		.header_right{
+			color: #b6b6b6;
+			text-align: right;
+			float: right;}
+			.header_right a{
+				line-height: 26px;
+				color: #b6b6b6;
+				font-size: 12px;
+				margin: 0 10px;}
+			.header_right input[type="text"]{
+				height: 35px;
+				font-size: 14px;
+				background: #333333;
+				border: none;
+				outline: none;
+				color: #b6b6b6;
+				padding: 0 16px;
+				border-radius: 18px;}
+		nav{
+			text-align: center;
+			margin: 0 250px 0 200px;}
+			nav a{
+				line-height: 86px;
+				margin: 0 10px;
+				display: inline-block;	
+				color: #aaaaaa;
+				font-size: 16px;
+				text-decoration: none;}
+				nav a:hover,
+				nav a.current{color: #fff;text-decoration: none;}
+				nav a.current{border-top: 2px solid red;}
+footer{color: #999;line-height: 68px;margin-top: 40px;}
+	.footer_core{width: 1000px;margin: 0 auto;}
+		.footer_right{float: right;}
+			.footer_right a{
+				color: #fff;
+				font-size: 16px;
+				margin-left: 45px;}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	color: #aaaaaa;}
+	.crumbs{
+		height: 60px;
+		line-height: 60px;}
+		.crumbs a{
+			color: #aaa;
+			font-size: 14px;}
+	.blocks{
+		overflow: hidden;
+		text-align: justify;
+		text-align-last: justify;}
+		.blocks li{
+			width: 317px;
+			background: #202020;
+			display: inline-block;
+			text-align: left;
+			text-align-last: left;
+			margin: 36px 0 0;
+			position: relative;}
+			.blocks li img{
+				width: 100%;
+				height: 179px;
+				display: block;}
+			.blocks li span{
+				padding: 0 16px;
+				display: block;
+				line-height: 53px;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;}
+			.blocks li a{
+				width: 82px;
+				height: 43px;
+				line-height: 43px;
+				position: absolute;
+				padding: 0 0 0 44px;
+				border-radius: 6px;
+				color: #fff;
+				font-size: 14px;
+				top: 0;
+				left: 50%;
+				margin: 36px 0 0 -63px;
+				opacity: 0;
+				transition: .2s;
+				text-decoration: none;
+				border-bottom: 3px solid #a4001f;
+				background: #d2062d url(../img/download_icon.png) no-repeat 10px center;}
+				.blocks li a + a{margin-top: 95px;}
+				.blocks li:hover a{opacity: 1;}
+				.blocks li a:hover{background-color: #a4001f;}
+			.blocks li.block_big{width: 489px;float: left;margin: 0;}
+				.blocks li.block_big img{height: 275px;}
+				.blocks li.block_big span{line-height: 36px;padding-bottom: 8px;}
+				.blocks li.block_big strong{
+					padding: 8px 16px 0;
+					display: block;
+					line-height: 36px;
+					font-size: 20px;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;}
+				.blocks li.block_big a{margin-top: 90px;}
+				.blocks li.block_big a + a{margin-top: 150px;}
+			.blocks li.block_small{
+				width: 236px;
+				margin: 0 0 0 19px;
+				float: left;}
+				.blocks li.block_small img{height: 134px;}
+				.blocks li.block_small span{line-height: 40px;}
+				.blocks li.block_small a{margin-top: 16px;}
+				.blocks li.block_small a + a{margin-top: 75px;}
+			.blocks li.block_bottom{margin-top: 15px;}
+
+
+
+
+
+
+
+
+
+
+
